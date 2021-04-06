@@ -6,6 +6,7 @@
 - 🌱 I’m currently learning Front end and Devops 
 - 💞️ I’m looking to collaborate on project involving IoT and green science 
 - 📫 How to reach me https://www.linkedin.com/in/akash-dwivedi-9a1091160/
+                      aakashdwivedi2000@gmail.com
 
 ### GitHub Stats
 ![Akash's Stats](https://github-readme-stats.vercel.app/api?username=AkashAi7&count_private=true&show_icons=true&theme=radical)
