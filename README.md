@@ -15,8 +15,8 @@
 ![Top Language](https://github-readme-stats.vercel.app/api/top-langs/?username=AkashAi7&show_icons=true&theme=radical)
 
 <p align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=hkaur008&show_icons=true&theme=jolly" />
-  <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=hkaur008&theme=jolly" />
+  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=AkashAi7&show_icons=true&theme=jolly" />
+  <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=AkashAi7&theme=jolly" />
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
