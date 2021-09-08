@@ -1,4 +1,4 @@
-
+<img src="https://github.com/AkashAi7/AkashAi7/blob/main/root/screen-capture%20(5) (1).gif"/>
 <h1 align="center">Hi 👋, I'm Akash Dwivedi</h1>
 <h3 align="center">A passionate  developer from India</h3>
 
