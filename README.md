@@ -14,6 +14,7 @@
   <img width="48%" src="https://github-readme-stats.vercel.app/api?username=AkashAi7&show_icons=true&theme=jolly" />
   <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=AkashAi7&theme=jolly" />
 </p>
+
 ### Top Languages
 ![Top Language](https://github-readme-stats.vercel.app/api/top-langs/?username=AkashAi7&show_icons=true&theme=radical)
 
