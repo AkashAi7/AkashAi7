@@ -3,12 +3,13 @@
 <h3 align="center">A passionate  developer from India</h3>
 
 - 👀 I’m interested in Devops , IoT, GIS  and Web Development
-- 🌱 I’m currently learning Front end and Devops 
+- 🌱 I’m currently learning Front end and DevOps 
 - 💞️ I’m looking to collaborate on project involving IoT and green science 
 - 📫 How to reach me 
 - Linkedin :- https://www.linkedin.com/in/akash-dwivedi-9a1091160/
 - Email    :- aakashdwivedi2000@gmail.com
 - Website  :- [akashcode.me](https://akashcode.me/)
+
 
 ### GitHub Stats
 <!-- ![Akash's Stats](https://github-readme-stats.vercel.app/api?username=AkashAi7&count_private=true&show_icons=true&theme=radical) -->
