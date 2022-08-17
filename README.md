@@ -2,8 +2,8 @@
 <h1 align="center">Hi 👋, I'm Akash Dwivedi</h1>
 <h3 align="center">A passionate  developer from India</h3>
 
-- 👀 I’m interested in Devops , IoT, GIS  and Web Development
-- 🌱 I’m currently learning Front end and DevOps 
+- 👀 I’m interested in Devops ,IoT, Data Engineering , Data Science , GIS  and Web Development
+- 🌱 I’m currently learning data engineering and DevOps 
 - 💞️ I’m looking to collaborate on project involving IoT and green science 
 - 📫 How to reach me 
 - Linkedin :- https://www.linkedin.com/in/akash-dwivedi-9a1091160/
