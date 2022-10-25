@@ -20,7 +20,7 @@
 
 ### Top Languages
 ![Top Language](https://github-readme-stats.vercel.app/api/top-langs/?username=AkashAi7&show_icons=true&theme=radical)
-
+![Top Langs](https://github.com/AkashAi7/github-readme-stats)
 
 
 <h3 align="left">Languages and Tools:</h3>
