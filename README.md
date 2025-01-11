@@ -8,7 +8,7 @@
 - 📫 How to reach me 
 - Linkedin :- https://www.linkedin.com/in/akash-dwivedi-9a1091160/
 - Email    :- aakashdwivedi2000@gmail.com
-- Website  :- [akashcode.me](https://akashcode.me/)
+- Website  :- [akash](https://akashai7.github.io/PortefolioAkash/)
 
 
 ### GitHub Stats
