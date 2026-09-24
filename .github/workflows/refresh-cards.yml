@@ -35,6 +35,19 @@ jobs:
           PROFILE_LOGIN: ${{ github.repository_owner }}
         run: node scripts/generate-cards.mjs
 
+      - name: Verify generated assets
+        run: |
+          empty=$(find assets -name '*.svg' -empty -print)
+          if [ -n "$empty" ]; then
+            echo "::error::Empty SVG(s) produced, refusing to commit:"
+            echo "$empty"
+            exit 1
+          fi
+          for f in assets/*.svg; do
+            tail -c 100 "$f" | grep -q '</svg>' || { echo "::error::$f is truncated"; exit 1; }
+          done
+          echo "All $(ls assets/*.svg | wc -l) assets are well-formed."
+
       - name: Commit refreshed cards
         run: |
           git config user.name "github-actions[bot]"

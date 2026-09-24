@@ -89,7 +89,7 @@ async function gql(query, variables, attempt = 1) {
 }
 
 const REPO_PAGE = `
-  repositories(first: 100, after: $cursor, ownerAffiliations: OWNER, isFork: false) {
+  repositories(first: 100, after: $cursor, ownerAffiliations: OWNER, isFork: false, privacy: PUBLIC) {
     totalCount
     pageInfo { hasNextPage endCursor }
     nodes {
