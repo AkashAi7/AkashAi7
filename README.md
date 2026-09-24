@@ -44,38 +44,26 @@ open_to:   [ Developer tooling, applied GenAI, IoT & green tech collaborations ]
 <table>
 <tr>
 <td width="50%" valign="top">
-<a href="https://github.com/AkashAi7/stenographer-mode">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=AkashAi7&repo=stenographer-mode&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=1F6FEB&icon_color=8957E6&text_color=C9D1D9" alt="stenographer-mode" />
-</a>
+<a href="https://github.com/AkashAi7/stenographer-mode"><img src="assets/repo-stenographer-mode.svg" alt="stenographer-mode" width="100%" /></a>
 </td>
 <td width="50%" valign="top">
-<a href="https://github.com/AkashAi7/token-optimization-simulator">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=AkashAi7&repo=token-optimization-simulator&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=1F6FEB&icon_color=8957E6&text_color=C9D1D9" alt="token-optimization-simulator" />
-</a>
+<a href="https://github.com/AkashAi7/token-optimization-simulator"><img src="assets/repo-token-optimization-simulator.svg" alt="token-optimization-simulator" width="100%" /></a>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://github.com/AkashAi7/CloudQuote">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=AkashAi7&repo=CloudQuote&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=1F6FEB&icon_color=8957E6&text_color=C9D1D9" alt="CloudQuote" />
-</a>
+<a href="https://github.com/AkashAi7/CloudQuote"><img src="assets/repo-CloudQuote.svg" alt="CloudQuote" width="100%" /></a>
 </td>
 <td width="50%" valign="top">
-<a href="https://github.com/AkashAi7/copilot-billing-observatory">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=AkashAi7&repo=copilot-billing-observatory&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=1F6FEB&icon_color=8957E6&text_color=C9D1D9" alt="copilot-billing-observatory" />
-</a>
+<a href="https://github.com/AkashAi7/copilot-billing-observatory"><img src="assets/repo-copilot-billing-observatory.svg" alt="copilot-billing-observatory" width="100%" /></a>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://github.com/AkashAi7/jev-vs-llm-benchmark">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=AkashAi7&repo=jev-vs-llm-benchmark&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=1F6FEB&icon_color=8957E6&text_color=C9D1D9" alt="jev-vs-llm-benchmark" />
-</a>
+<a href="https://github.com/AkashAi7/jev-vs-llm-benchmark"><img src="assets/repo-jev-vs-llm-benchmark.svg" alt="jev-vs-llm-benchmark" width="100%" /></a>
 </td>
 <td width="50%" valign="top">
-<a href="https://github.com/AkashAi7/github-pixel-squad-flow">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=AkashAi7&repo=github-pixel-squad-flow&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=1F6FEB&icon_color=8957E6&text_color=C9D1D9" alt="github-pixel-squad-flow" />
-</a>
+<a href="https://github.com/AkashAi7/github-pixel-squad-flow"><img src="assets/repo-github-pixel-squad-flow.svg" alt="github-pixel-squad-flow" width="100%" /></a>
 </td>
 </tr>
 </table>
@@ -201,20 +189,14 @@ open_to:   [ Developer tooling, applied GenAI, IoT & green tech collaborations ]
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=AkashAi7&show_icons=true&count_private=true&include_all_commits=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=1F6FEB&icon_color=8957E6&text_color=C9D1D9" alt="GitHub stats" />
-<img width="49%" src="https://streak-stats.demolab.com?user=AkashAi7&theme=tokyonight&hide_border=true&background=0D1117&ring=1F6FEB&fire=8957E6&currStreakLabel=1F6FEB&sideNums=C9D1D9&dates=8B949E" alt="GitHub streak" />
+<img width="49%" src="assets/stats.svg" alt="GitHub stats" />
+<img width="49%" src="assets/top-langs.svg" alt="Most used languages" />
 
-<br/>
-
-<img width="42%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AkashAi7&layout=compact&langs_count=10&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=1F6FEB&text_color=C9D1D9" alt="Top languages" />
+<sub>Cards are generated from the GitHub API and committed to this repo by a scheduled workflow — no third-party card service, so they never rate-limit or go offline. Language shares cap each repository's contribution so vendored dependencies don't skew the result.</sub>
 
 <br/><br/>
 
-<img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=AkashAi7&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=1F6FEB&line=8957E6&point=C9D1D9&area=true&area_color=1F6FEB" alt="Contribution activity graph" />
-
-<br/>
-
-<img width="98%" src="https://github-profile-trophy.vercel.app/?username=AkashAi7&theme=discord&no-frame=true&no-bg=true&column=7&margin-w=6&margin-h=6" alt="Trophies" />
+<img width="49%" src="https://streak-stats.demolab.com?user=AkashAi7&theme=tokyonight&hide_border=true&background=0D1117&ring=1F6FEB&fire=8957E6&currStreakLabel=1F6FEB&sideNums=C9D1D9&dates=8B949E" alt="GitHub streak" />
 
 </div>
 

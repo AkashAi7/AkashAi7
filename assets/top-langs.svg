@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="450" height="168" viewBox="0 0 450 168" role="img" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif">
+  <defs>
+    <linearGradient id="glangs" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#58A6FF"/>
+      <stop offset="100%" stop-color="#8957E6"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .fade { opacity: 0; animation: fadeIn .6s ease-out forwards; }
+    @keyframes fadeIn { to { opacity: 1; } }
+    @keyframes grow { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+    .bar { transform-origin: left center; animation: grow .9s cubic-bezier(.3,.6,.4,1) forwards; }
+  </style>
+  <rect x="0.5" y="0.5" width="449" height="167" rx="10" fill="#0D1117" stroke="#21262D"/>
+  <rect x="1" y="1" width="4" height="166" fill="url(#glangs)"/>
+  <g class="fade">
+    <text x="22" y="32" fill="#58A6FF" font-size="17" font-weight="700">Most Used Languages</text>
+  </g>
+  <clipPath id="clipbar"><rect x="22" y="46" width="406" height="10" rx="5"/></clipPath>
+  <g clip-path="url(#clipbar)">
+    <rect x="22" y="46" width="406" height="10" rx="5" fill="#21262D"/>
+    <rect class="bar" style="animation-delay:0.15s" x="22.0" y="46" width="172.9" height="10" fill="#3178c6"/>
+    <rect class="bar" style="animation-delay:0.21s" x="194.9" y="46" width="52.5" height="10" fill="#3572A5"/>
+    <rect class="bar" style="animation-delay:0.27s" x="247.4" y="46" width="51.6" height="10" fill="#e34c26"/>
+    <rect class="bar" style="animation-delay:0.33s" x="299.0" y="46" width="47.8" height="10" fill="#663399"/>
+    <rect class="bar" style="animation-delay:0.39s" x="346.8" y="46" width="35.1" height="10" fill="#f1e05a"/>
+    <rect class="bar" style="animation-delay:0.45s" x="381.9" y="46" width="16.7" height="10" fill="#012456"/>
+    <rect class="bar" style="animation-delay:0.51s" x="398.6" y="46" width="16.0" height="10" fill="#4F5D95"/>
+    <rect class="bar" style="animation-delay:0.57s" x="414.6" y="46" width="13.4" height="10" fill="#00ADD8"/>
+  </g>
+  <g class="fade" style="animation-delay:0.25s">
+    <circle cx="27" cy="80" r="5.5" fill="#3178c6"/>
+    <text x="39" y="84" fill="#C9D1D9" font-size="12">TypeScript</text>
+    <text x="117.0" y="84" fill="#8B949E" font-size="11.5">42.6%</text>
+  </g>
+  <g class="fade" style="animation-delay:0.30s">
+    <circle cx="27" cy="102" r="5.5" fill="#3572A5"/>
+    <text x="39" y="106" fill="#C9D1D9" font-size="12">Python</text>
+    <text x="89.0" y="106" fill="#8B949E" font-size="11.5">12.9%</text>
+  </g>
+  <g class="fade" style="animation-delay:0.35s">
+    <circle cx="27" cy="124" r="5.5" fill="#e34c26"/>
+    <text x="39" y="128" fill="#C9D1D9" font-size="12">HTML</text>
+    <text x="75.0" y="128" fill="#8B949E" font-size="11.5">12.7%</text>
+  </g>
+  <g class="fade" style="animation-delay:0.40s">
+    <circle cx="27" cy="146" r="5.5" fill="#663399"/>
+    <text x="39" y="150" fill="#C9D1D9" font-size="12">CSS</text>
+    <text x="68.0" y="150" fill="#8B949E" font-size="11.5">11.8%</text>
+  </g>
+  <g class="fade" style="animation-delay:0.45s">
+    <circle cx="230" cy="80" r="5.5" fill="#f1e05a"/>
+    <text x="242" y="84" fill="#C9D1D9" font-size="12">JavaScript</text>
+    <text x="320.0" y="84" fill="#8B949E" font-size="11.5">8.6%</text>
+  </g>
+  <g class="fade" style="animation-delay:0.50s">
+    <circle cx="230" cy="102" r="5.5" fill="#012456"/>
+    <text x="242" y="106" fill="#C9D1D9" font-size="12">PowerShell</text>
+    <text x="320.0" y="106" fill="#8B949E" font-size="11.5">4.1%</text>
+  </g>
+  <g class="fade" style="animation-delay:0.55s">
+    <circle cx="230" cy="124" r="5.5" fill="#4F5D95"/>
+    <text x="242" y="128" fill="#C9D1D9" font-size="12">PHP</text>
+    <text x="271.0" y="128" fill="#8B949E" font-size="11.5">3.9%</text>
+  </g>
+  <g class="fade" style="animation-delay:0.60s">
+    <circle cx="230" cy="146" r="5.5" fill="#00ADD8"/>
+    <text x="242" y="150" fill="#C9D1D9" font-size="12">Go</text>
+    <text x="264.0" y="150" fill="#8B949E" font-size="11.5">3.3%</text>
+  </g>
+</svg>
