@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,45:1F6FEB,100:8957E6&height=210&section=header&text=Akash%20Dwivedi&fontSize=62&fontColor=FFFFFF&animation=fadeIn&fontAlignY=34&desc=Cloud%20%26%20AI%20Solution%20Engineer&descAlignY=54&descSize=20" width="100%" />
+<img src="assets/header.svg" alt="Akash Dwivedi — Cloud & AI Solution Engineer" width="100%" />
 
 <a href="https://github.com/AkashAi7">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=21&duration=3200&pause=900&color=1F6FEB&center=true&vCenter=true&width=760&lines=Cloud+%26+AI+Solution+Engineer+%40+Microsoft;Building+agentic+developer+tooling+on+the+Copilot+SDK;Token+economics%2C+FinOps+%26+cloud+compete+strategy;Azure+%7C+Kubernetes+%7C+DevOps+%7C+Generative+AI" alt="What I do" />
@@ -11,8 +11,6 @@
 <a href="https://www.linkedin.com/in/akash-dwivedi-9a1091160/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 <a href="https://akashai7.github.io/PortefolioAkash/"><img src="https://img.shields.io/badge/Portfolio-1F6FEB?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
 <a href="mailto:aakashdwivedi2000@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-<a href="https://github.com/AkashAi7?tab=followers"><img src="https://img.shields.io/github/followers/AkashAi7?style=for-the-badge&color=8957E6&labelColor=0D1117&logo=github&logoColor=white" alt="Followers" /></a>
-<img src="https://komarev.com/ghpvc/?username=AkashAi7&style=for-the-badge&color=1F6FEB&label=PROFILE+VIEWS" alt="Profile views" />
 
 </div>
 
@@ -229,6 +227,6 @@ I'm always happy to talk about **developer tooling, applied GenAI, cloud cost en
 
 <i>"Measure what the model costs you, before it costs you."</i>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:8957E6,55:1F6FEB,100:0D1117&height=120&section=footer" width="100%" />
+<img src="assets/footer.svg" alt="" width="100%" />
 
 </div>

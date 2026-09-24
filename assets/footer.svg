@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="120" viewBox="0 0 1000 120" role="img" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif">
+  <defs>
+    <linearGradient id="bgrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0D1117"/>
+      <stop offset="55%" stop-color="#161B22"/>
+      <stop offset="100%" stop-color="#0D1117"/>
+    </linearGradient>
+    <clipPath id="bclip"><rect x="0" y="0" width="1000" height="120"/></clipPath>
+  </defs>
+  <rect width="1000" height="120" fill="url(#bgrad)"/>
+  <g clip-path="url(#bclip)" transform="translate(0, 120) scale(1, -1)">
+    <g opacity="0.18">
+      <path fill="#58A6FF" d="M-340,74.4 q 85,-20 170,0 q 85,20 170,0 q 85,-20 170,0 q 85,20 170,0 q 85,-20 170,0 q 85,20 170,0 q 85,-20 170,0 q 85,20 170,0 q 85,-20 170,0 q 85,20 170,0 q 85,-20 170,0 q 85,20 170,0 q 85,-20 170,0 q 85,20 170,0 q 85,-20 170,0 q 85,20 170,0 L2340,120 L-340,120 Z">
+        <animateTransform attributeName="transform" type="translate" from="0 0" to="-340 0" dur="13s" repeatCount="indefinite"/>
+      </path>
+    </g>
+    <g opacity="0.3">
+      <path fill="#8957E6" d="M-260,88.8 q 65,-15 130,0 q 65,15 130,0 q 65,-15 130,0 q 65,15 130,0 q 65,-15 130,0 q 65,15 130,0 q 65,-15 130,0 q 65,15 130,0 q 65,-15 130,0 q 65,15 130,0 q 65,-15 130,0 q 65,15 130,0 q 65,-15 130,0 q 65,15 130,0 q 65,-15 130,0 q 65,15 130,0 q 65,-15 130,0 q 65,15 130,0 q 65,-15 130,0 q 65,15 130,0 L2260,120 L-260,120 Z">
+        <animateTransform attributeName="transform" type="translate" from="0 0" to="-260 0" dur="9s" repeatCount="indefinite"/>
+      </path>
+    </g>
+    <g opacity="0.55">
+      <path fill="#58A6FF" d="M-400,103.2 q 100,-11 200,0 q 100,11 200,0 q 100,-11 200,0 q 100,11 200,0 q 100,-11 200,0 q 100,11 200,0 q 100,-11 200,0 q 100,11 200,0 q 100,-11 200,0 q 100,11 200,0 q 100,-11 200,0 q 100,11 200,0 q 100,-11 200,0 q 100,11 200,0 L2400,120 L-400,120 Z">
+        <animateTransform attributeName="transform" type="translate" from="0 0" to="-400 0" dur="17s" repeatCount="indefinite"/>
+      </path>
+    </g>
+  </g>
+
+</svg>

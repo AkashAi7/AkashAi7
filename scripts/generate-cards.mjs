@@ -106,7 +106,6 @@ async function fetchAll() {
     `query($login: String!, $cursor: String) {
       user(login: $login) {
         name
-        followers { totalCount }
         contributionsCollection {
           totalCommitContributions
           restrictedContributionsCount
@@ -137,6 +136,56 @@ async function fetchAll() {
   const featured = await gql(`query($login: String!) { ${selection} }`, { login: LOGIN });
 
   return { user, repos, featured };
+}
+
+function wavePath(W, H, baseY, amp, wavelength) {
+  // Spans 2x width so a -wavelength translate loops seamlessly.
+  let d = `M-${wavelength},${baseY}`;
+  for (let x = -wavelength; x < W * 2 + wavelength; x += wavelength) {
+    d += ` q ${wavelength / 4},${-amp} ${wavelength / 2},0 q ${wavelength / 4},${amp} ${wavelength / 2},0`;
+  }
+  return `${d} L${W * 2 + wavelength},${H} L-${wavelength},${H} Z`;
+}
+
+function banner({ width: W, height: H, title, subtitle, flip }) {
+  const waves = [
+    { color: T.title, opacity: 0.18, baseY: H * 0.62, amp: 20, wl: 340, dur: 13 },
+    { color: T.accent, opacity: 0.3, baseY: H * 0.74, amp: 15, wl: 260, dur: 9 },
+    { color: T.title, opacity: 0.55, baseY: H * 0.86, amp: 11, wl: 400, dur: 17 },
+  ];
+
+  const waveSvg = waves
+    .map(
+      (w, i) => `    <g opacity="${w.opacity}">
+      <path fill="${w.color}" d="${wavePath(W, H, w.baseY, w.amp, w.wl)}">
+        <animateTransform attributeName="transform" type="translate" from="0 0" to="-${w.wl} 0" dur="${w.dur}s" repeatCount="indefinite"/>
+      </path>
+    </g>`
+    )
+    .join("\n");
+
+  const text = title
+    ? `  <g>
+    <text x="${W / 2}" y="${H * 0.42}" fill="#FFFFFF" font-size="54" font-weight="800" text-anchor="middle" letter-spacing="1">${esc(title)}</text>
+    <text x="${W / 2}" y="${H * 0.42 + 34}" fill="#C9D1D9" font-size="19" font-weight="500" text-anchor="middle" letter-spacing="2.5">${esc(subtitle || "")}</text>
+  </g>`
+    : "";
+
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif">
+  <defs>
+    <linearGradient id="bgrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0D1117"/>
+      <stop offset="55%" stop-color="#161B22"/>
+      <stop offset="100%" stop-color="#0D1117"/>
+    </linearGradient>
+    <clipPath id="bclip"><rect x="0" y="0" width="${W}" height="${H}"/></clipPath>
+  </defs>
+  <rect width="${W}" height="${H}" fill="url(#bgrad)"/>
+  <g clip-path="url(#bclip)"${flip ? ` transform="translate(0, ${H}) scale(1, -1)"` : ""}>
+${waveSvg}
+  </g>
+${text}
+</svg>`;
 }
 
 function card(width, height, inner, gradId) {
@@ -199,7 +248,7 @@ ${desc.map((l, i) => `    <text x="21" y="${60 + i * 18}" fill="${T.muted}" font
 
 function statsCard(user, repos) {
   const W = 450;
-  const H = 205;
+  const H = 182;
   const stars = repos.reduce((a, r) => a + r.stargazerCount, 0);
   const c = user.contributionsCollection;
   const commits = c.totalCommitContributions + c.restrictedContributionsCount;
@@ -210,7 +259,6 @@ function statsCard(user, repos) {
     ["Public Repositories", user.repositories.totalCount, "M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.714 1.7.75.75 0 1 1-1.072 1.05A2.495 2.495 0 0 1 2 11.5Z"],
     ["Pull Requests", c.totalPullRequestContributions, "M1.5 3.25a2.25 2.25 0 1 1 3 2.122v5.256a2.251 2.251 0 1 1-1.5 0V5.372A2.25 2.25 0 0 1 1.5 3.25Zm5.677-.177L9.573.677A.25.25 0 0 1 10 .854V2.5h1A2.5 2.5 0 0 1 13.5 5v5.628a2.251 2.251 0 1 1-1.5 0V5a1 1 0 0 0-1-1h-1v1.646a.25.25 0 0 1-.427.177L7.177 3.427a.25.25 0 0 1 0-.354Z"],
     ["Code Reviews", c.totalPullRequestReviewContributions, "M1.75 1h12.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 14.25 14H8.06l-2.573 2.573A1.458 1.458 0 0 1 3 15.543V14H1.75A1.75 1.75 0 0 1 0 12.25v-9.5C0 1.784.784 1 1.75 1Z"],
-    ["Followers", user.followers.totalCount, "M2 5.5a3.5 3.5 0 1 1 5.898 2.549 5.508 5.508 0 0 1 3.034 4.084.75.75 0 1 1-1.482.235 4 4 0 0 0-7.9 0 .75.75 0 0 1-1.482-.236A5.507 5.507 0 0 1 3.102 8.05 3.493 3.493 0 0 1 2 5.5Z"],
   ];
 
   const inner = `  <g class="fade">
@@ -290,6 +338,19 @@ async function main() {
   await mkdir(OUT, { recursive: true });
 
   const { user, repos, featured } = await fetchAll();
+
+  await writeFile(
+    new URL("header.svg", OUT),
+    banner({
+      width: 1000,
+      height: 210,
+      title: user.name || LOGIN,
+      subtitle: "CLOUD & AI SOLUTION ENGINEER",
+    }),
+    "utf8"
+  );
+  await writeFile(new URL("footer.svg", OUT), banner({ width: 1000, height: 120, flip: true }), "utf8");
+  console.log("wrote header.svg + footer.svg");
 
   await writeFile(new URL("stats.svg", OUT), statsCard(user, repos), "utf8");
   await writeFile(new URL("top-langs.svg", OUT), langsCard(repos), "utf8");
