@@ -19,13 +19,13 @@
   <clipPath id="clipbar"><rect x="22" y="46" width="406" height="10" rx="5"/></clipPath>
   <g clip-path="url(#clipbar)">
     <rect x="22" y="46" width="406" height="10" rx="5" fill="#21262D"/>
-    <rect class="bar" style="animation-delay:0.15s" x="22.0" y="46" width="164.3" height="10" fill="#3178c6"/>
-    <rect class="bar" style="animation-delay:0.21s" x="186.3" y="46" width="58.8" height="10" fill="#e34c26"/>
-    <rect class="bar" style="animation-delay:0.27s" x="245.1" y="46" width="48.7" height="10" fill="#663399"/>
-    <rect class="bar" style="animation-delay:0.33s" x="293.8" y="46" width="40.3" height="10" fill="#f1e05a"/>
+    <rect class="bar" style="animation-delay:0.15s" x="22.0" y="46" width="164.2" height="10" fill="#3178c6"/>
+    <rect class="bar" style="animation-delay:0.21s" x="186.2" y="46" width="58.8" height="10" fill="#e34c26"/>
+    <rect class="bar" style="animation-delay:0.27s" x="245.0" y="46" width="48.7" height="10" fill="#663399"/>
+    <rect class="bar" style="animation-delay:0.33s" x="293.7" y="46" width="40.4" height="10" fill="#f1e05a"/>
     <rect class="bar" style="animation-delay:0.39s" x="334.1" y="46" width="36.6" height="10" fill="#3572A5"/>
     <rect class="bar" style="animation-delay:0.45s" x="370.7" y="46" width="20.7" height="10" fill="#4F5D95"/>
-    <rect class="bar" style="animation-delay:0.51s" x="391.4" y="46" width="19.3" height="10" fill="#012456"/>
+    <rect class="bar" style="animation-delay:0.51s" x="391.4" y="46" width="19.2" height="10" fill="#012456"/>
     <rect class="bar" style="animation-delay:0.57s" x="410.7" y="46" width="17.3" height="10" fill="#00ADD8"/>
   </g>
   <g class="fade" style="animation-delay:0.25s">
@@ -46,7 +46,7 @@
   <g class="fade" style="animation-delay:0.40s">
     <circle cx="27" cy="146" r="5.5" fill="#f1e05a"/>
     <text x="39" y="150" fill="#C9D1D9" font-size="12">JavaScript</text>
-    <text x="117.0" y="150" fill="#8B949E" font-size="11.5">9.9%</text>
+    <text x="117.0" y="150" fill="#8B949E" font-size="11.5">10.0%</text>
   </g>
   <g class="fade" style="animation-delay:0.45s">
     <circle cx="230" cy="80" r="5.5" fill="#3572A5"/>
