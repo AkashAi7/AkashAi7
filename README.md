@@ -200,15 +200,9 @@ open_to:   [ Developer tooling, applied GenAI, IoT & green tech collaborations ]
 
 ---
 
-## Contribution Graph
-
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AkashAi7/AkashAi7/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AkashAi7/AkashAi7/output/github-snake.svg" />
-  <img alt="Contribution snake animation" src="https://raw.githubusercontent.com/AkashAi7/AkashAi7/output/github-snake.svg" width="98%" />
-</picture>
+<img src="https://images.wallpapersden.com/image/download/iceberg-minimalist_a2pnaGmUmZqaraWkpJRsa21lrWloZ2U.jpg" alt="Minimalist iceberg illustration" width="100%" />
 
 </div>
 
