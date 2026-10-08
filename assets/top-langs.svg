@@ -19,39 +19,39 @@
   <clipPath id="clipbar"><rect x="22" y="46" width="406" height="10" rx="5"/></clipPath>
   <g clip-path="url(#clipbar)">
     <rect x="22" y="46" width="406" height="10" rx="5" fill="#21262D"/>
-    <rect class="bar" style="animation-delay:0.15s" x="22.0" y="46" width="159.1" height="10" fill="#3178c6"/>
-    <rect class="bar" style="animation-delay:0.21s" x="181.1" y="46" width="60.7" height="10" fill="#e34c26"/>
-    <rect class="bar" style="animation-delay:0.27s" x="241.8" y="46" width="47.7" height="10" fill="#f1e05a"/>
-    <rect class="bar" style="animation-delay:0.33s" x="289.5" y="46" width="47.6" height="10" fill="#663399"/>
-    <rect class="bar" style="animation-delay:0.39s" x="337.1" y="46" width="35.4" height="10" fill="#3572A5"/>
-    <rect class="bar" style="animation-delay:0.45s" x="372.6" y="46" width="20.0" height="10" fill="#4F5D95"/>
-    <rect class="bar" style="animation-delay:0.51s" x="392.6" y="46" width="18.6" height="10" fill="#012456"/>
-    <rect class="bar" style="animation-delay:0.57s" x="411.2" y="46" width="16.8" height="10" fill="#00ADD8"/>
+    <rect class="bar" style="animation-delay:0.15s" x="22.0" y="46" width="156.6" height="10" fill="#3178c6"/>
+    <rect class="bar" style="animation-delay:0.21s" x="178.6" y="46" width="59.7" height="10" fill="#e34c26"/>
+    <rect class="bar" style="animation-delay:0.27s" x="238.4" y="46" width="53.3" height="10" fill="#f1e05a"/>
+    <rect class="bar" style="animation-delay:0.33s" x="291.7" y="46" width="46.9" height="10" fill="#663399"/>
+    <rect class="bar" style="animation-delay:0.39s" x="338.6" y="46" width="34.9" height="10" fill="#3572A5"/>
+    <rect class="bar" style="animation-delay:0.45s" x="373.4" y="46" width="19.7" height="10" fill="#4F5D95"/>
+    <rect class="bar" style="animation-delay:0.51s" x="393.2" y="46" width="18.3" height="10" fill="#012456"/>
+    <rect class="bar" style="animation-delay:0.57s" x="411.5" y="46" width="16.5" height="10" fill="#00ADD8"/>
   </g>
   <g class="fade" style="animation-delay:0.25s">
     <circle cx="27" cy="80" r="5.5" fill="#3178c6"/>
     <text x="39" y="84" fill="#C9D1D9" font-size="12">TypeScript</text>
-    <text x="117.0" y="84" fill="#8B949E" font-size="11.5">39.2%</text>
+    <text x="117.0" y="84" fill="#8B949E" font-size="11.5">38.6%</text>
   </g>
   <g class="fade" style="animation-delay:0.30s">
     <circle cx="27" cy="102" r="5.5" fill="#e34c26"/>
     <text x="39" y="106" fill="#C9D1D9" font-size="12">HTML</text>
-    <text x="75.0" y="106" fill="#8B949E" font-size="11.5">14.9%</text>
+    <text x="75.0" y="106" fill="#8B949E" font-size="11.5">14.7%</text>
   </g>
   <g class="fade" style="animation-delay:0.35s">
     <circle cx="27" cy="124" r="5.5" fill="#f1e05a"/>
     <text x="39" y="128" fill="#C9D1D9" font-size="12">JavaScript</text>
-    <text x="117.0" y="128" fill="#8B949E" font-size="11.5">11.7%</text>
+    <text x="117.0" y="128" fill="#8B949E" font-size="11.5">13.1%</text>
   </g>
   <g class="fade" style="animation-delay:0.40s">
     <circle cx="27" cy="146" r="5.5" fill="#663399"/>
     <text x="39" y="150" fill="#C9D1D9" font-size="12">CSS</text>
-    <text x="68.0" y="150" fill="#8B949E" font-size="11.5">11.7%</text>
+    <text x="68.0" y="150" fill="#8B949E" font-size="11.5">11.5%</text>
   </g>
   <g class="fade" style="animation-delay:0.45s">
     <circle cx="230" cy="80" r="5.5" fill="#3572A5"/>
     <text x="242" y="84" fill="#C9D1D9" font-size="12">Python</text>
-    <text x="292.0" y="84" fill="#8B949E" font-size="11.5">8.7%</text>
+    <text x="292.0" y="84" fill="#8B949E" font-size="11.5">8.6%</text>
   </g>
   <g class="fade" style="animation-delay:0.50s">
     <circle cx="230" cy="102" r="5.5" fill="#4F5D95"/>
@@ -61,7 +61,7 @@
   <g class="fade" style="animation-delay:0.55s">
     <circle cx="230" cy="124" r="5.5" fill="#012456"/>
     <text x="242" y="128" fill="#C9D1D9" font-size="12">PowerShell</text>
-    <text x="320.0" y="128" fill="#8B949E" font-size="11.5">4.6%</text>
+    <text x="320.0" y="128" fill="#8B949E" font-size="11.5">4.5%</text>
   </g>
   <g class="fade" style="animation-delay:0.60s">
     <circle cx="230" cy="146" r="5.5" fill="#00ADD8"/>
